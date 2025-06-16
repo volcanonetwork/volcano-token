@@ -496,7 +496,7 @@
 					"details": "See {IERC20-balanceOf}."
 				},
 				"constructor": {
-					"details": "El constructor inicializa nombre, símbolo, supply y propiedad."
+					"details": "The constructor initializes name, symbol, supply and property."
 				},
 				"name()": {
 					"details": "Returns the name of the token."
@@ -530,13 +530,13 @@
 			"kind": "user",
 			"methods": {
 				"awardTokens(address,uint256)": {
-					"notice": "Recompensa a una dirección con tokens desde el balance del owner."
+					"notice": "Reward an address with tokens from the owner's balance."
 				},
 				"decimals()": {
-					"notice": "Devuelve la cantidad de decimales del token (18)."
+					"notice": "Returns the number of decimal places in the token (18)."
 				}
 			},
-			"notice": "Token de utilidad con supply fijo para hackatones y economía circular.",
+			"notice": "Utility token with a fixed supply, designed for hackathons and community use.",
 			"version": 1
 		}
 	},
@@ -605,11 +605,11 @@
 			]
 		},
 		"VolcanoToken.sol": {
-			"keccak256": "0x5495a4257a46aa880cb045b0560a5c7ce223678d23fd55e150465f9c4db7038f",
+			"keccak256": "0x4e205a8619e357d8ac44465024f65c3589aa7555ba127d609c7eff6a1330baf7",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://a6f3615d79709159ec4d31f36b72ddd6868b084253d2cfa4f3da95baa2dbe3dd",
-				"dweb:/ipfs/QmQUqzeQHEjS6wqDBExupGWeRoraiMMSXWUYNL2sVEL7KU"
+				"bzz-raw://ea3bbdd8050badb614cdcb5cde079757e21aa7953a65c392facf7590b544ffc9",
+				"dweb:/ipfs/QmNreWGoohRuRgZ16vDUSpwrFMKHeYt5k9aDic13GHWamL"
 			]
 		}
 	},
