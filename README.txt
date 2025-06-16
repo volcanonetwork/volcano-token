@@ -1,28 +1,49 @@
-REMIX DEFAULT WORKSPACE
+# 🌋 Volcano Token (VLN)
 
-Remix default workspace is present when:
-i. Remix loads for the very first time 
-ii. A new workspace is created with 'Default' template
-iii. There are no files existing in the File Explorer
+**Volcano Token (VLN)** is a fixed-supply utility token built on the Avalanche C-Chain. It powers the **Arenal Volcano Hackathons** and is designed to support innovation, real software development, and a vibrant Web3 community rooted in Latin America.
 
-This workspace contains 3 directories:
+---
 
-1. 'contracts': Holds three contracts with increasing levels of complexity.
-2. 'scripts': Contains four typescript files to deploy a contract. It is explained below.
-3. 'tests': Contains one Solidity test file for 'Ballot' contract & one JS test file for 'Storage' contract.
+## ✨ Key Features
 
-SCRIPTS
+- ✅ **ERC-20 standard** using OpenZeppelin
+- 🔒 **Fixed total supply** of 1,000,000,000 VLN
+- 🎁 `awardTokens()` function to distribute rewards
+- 🌀 Designed for future **circular economy** integration
+- 🔗 Fully compatible with Metamask, Snowtrace, and EVM tooling
+- 🌐 Deployed on **Avalanche Fuji Testnet**
 
-The 'scripts' folder has four typescript files which help to deploy the 'Storage' contract using 'web3.js' and 'ethers.js' libraries.
+---
 
-For the deployment of any other contract, just update the contract name from 'Storage' to the desired contract and provide constructor arguments accordingly 
-in the file `deploy_with_ethers.ts` or  `deploy_with_web3.ts`
+## 📦 Contract Details
 
-In the 'tests' folder there is a script containing Mocha-Chai unit tests for 'Storage' contract.
+| Field | Value |
+|-------|-------|
+| **Network** | Avalanche C-Chain (Testnet: Fuji) |
+| **Contract Address** | `0x9dc8dd007f1f0566d656d8cf50e00eee9439b7f3` |
+| **Name** | Volcano Token |
+| **Symbol** | VLN |
+| **Decimals** | 18 |
 
-To run a script, right click on file name in the file explorer and click 'Run'. Remember, Solidity file must already be compiled.
-Output from script will appear in remix terminal.
+## ⚙️ Usage Examples
 
-Please note, require/import is supported in a limited manner for Remix supported modules.
-For now, modules supported by Remix are ethers, web3, swarmgw, chai, multihashes, remix and hardhat only for hardhat.ethers object/plugin.
-For unsupported modules, an error like this will be thrown: '<module_name> module require is not supported by Remix IDE' will be shown.
+### Award tokens to a contributor:
+
+```solidity
+awardTokens(0xRecipient..., 100 * 10 ** 18);
+
+### Check token supply:
+
+```solidity
+totalSupply();
+```
+
+## 📄 License
+
+This project is released under the [MIT License](./LICENSE).
+
+## 🌐 Links
+
+- 🔗 [Official Website](https://www.volcanonetwork.io)
+- 📘 [Whitepaper](https://www.volcanonetwork.io/whitepaper)
+- 🧾 [Snowtrace Testnet](https://testnet.snowtrace.io/address/0x9dc8dd007f1f0566d656d8cf50e00eee9439b7f3)
