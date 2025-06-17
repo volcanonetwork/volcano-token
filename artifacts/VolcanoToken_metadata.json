@@ -168,25 +168,6 @@
 					{
 						"indexed": true,
 						"internalType": "address",
-						"name": "recipient",
-						"type": "address"
-					},
-					{
-						"indexed": false,
-						"internalType": "uint256",
-						"name": "amount",
-						"type": "uint256"
-					}
-				],
-				"name": "TokensAwarded",
-				"type": "event"
-			},
-			{
-				"anonymous": false,
-				"inputs": [
-					{
-						"indexed": true,
-						"internalType": "address",
 						"name": "from",
 						"type": "address"
 					},
@@ -251,24 +232,6 @@
 						"type": "bool"
 					}
 				],
-				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "address",
-						"name": "recipient",
-						"type": "address"
-					},
-					{
-						"internalType": "uint256",
-						"name": "amount",
-						"type": "uint256"
-					}
-				],
-				"name": "awardTokens",
-				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
 			},
@@ -511,12 +474,6 @@
 				"approve(address,uint256)": {
 					"details": "See {IERC20-approve}. NOTE: If `value` is the maximum `uint256`, the allowance is not updated on `transferFrom`. This is semantically equivalent to an infinite approval. Requirements: - `spender` cannot be the zero address."
 				},
-				"awardTokens(address,uint256)": {
-					"params": {
-						"amount": "The amount to transfer (in wei, not whole tokens).",
-						"recipient": "The address receiving the tokens."
-					}
-				},
 				"balanceOf(address)": {
 					"details": "See {IERC20-balanceOf}."
 				},
@@ -552,16 +509,8 @@
 			"version": 1
 		},
 		"userdoc": {
-			"events": {
-				"TokensAwarded(address,uint256)": {
-					"notice": "Emitted when tokens are awarded via awardTokens or awardHuman."
-				}
-			},
 			"kind": "user",
 			"methods": {
-				"awardTokens(address,uint256)": {
-					"notice": "Award a specific amount of tokens (in wei) to a recipient."
-				},
 				"decimals()": {
 					"notice": "Returns the number of decimal places in the token (18)."
 				}
@@ -635,11 +584,11 @@
 			]
 		},
 		"VolcanoToken.sol": {
-			"keccak256": "0x9a4e66735fe1c2adf19aa7693acc1f244a2bf01b2305eb1dd27515cd8ba9235a",
+			"keccak256": "0x4b329fd31009fbcc3e184d03ae0a47907b492035bec1e2a580edc9eb34043bd5",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://30984d9930f3a69c68ef6d1f6f2c585acf947e46cd2304941943a8e9d1fbd5af",
-				"dweb:/ipfs/QmX2ycmg6p5kMasa66RnjSAtzYraMMMME8iHkTmFXVMxEm"
+				"bzz-raw://02d76c2d272b4c200d0a5b446e239a92177b52134ebf95c36276e5c2f1d54ab3",
+				"dweb:/ipfs/QmVwahkKyD2VApEHqq5uMT1RFECaWEAp4wvE19QrEUFJB5"
 			]
 		}
 	},
