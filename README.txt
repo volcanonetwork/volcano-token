@@ -20,7 +20,7 @@
 | Field | Value |
 |-------|-------|
 | **Network** | Avalanche C-Chain (Testnet: Fuji) |
-| **Contract Address** | `0x9dc8dd007f1f0566d656d8cf50e00eee9439b7f3` |
+| **Contract Address** | `0x3ac896d0bbd7d01e0cdfe476397c5ecd130cf9b1` |
 | **Name** | Volcano Token |
 | **Symbol** | VLN |
 | **Decimals** | 18 |
